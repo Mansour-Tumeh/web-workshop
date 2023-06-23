@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: rgb(62, 55, 141);
     color: #fff;
     padding: 10px;
     /* animation-name: backgroundChange;
@@ -43,7 +43,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: rgb(62, 55, 141);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -55,16 +55,17 @@ body {
   }
   h1 {
     animation-name: colorChange;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
   }
   
   @keyframes colorChange {
     0% { color: white; }
     
-    50% { color: blue; }
+    50% { color: orange; }
      
-    100% { color: white; }
+    75% { color: rgb(62, 55, 141); }
+    100% { color: white }
   }
   
   @keyframes backgroundChange {
@@ -75,5 +76,6 @@ body {
     100% { background-color: lightblue; }
   }
   
-  
-  
+  img{
+    width: 200px;
+  }
